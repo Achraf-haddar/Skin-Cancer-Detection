@@ -1,6 +1,6 @@
 from PIL import Image, ImageFile
 import torch
-import numpy as np
+import numpy as np 
 
 class ClassificationDataset:
     def __init__(self, image_path, targets, resize=None, augmentations=None):
@@ -15,7 +15,7 @@ class ClassificationDataset:
     def __getitem__(self, item):
         image = Image.open(self.image_path[item])
         image = image.convert("RGB")
-        targets = image.targets[item]
+        targets = self.targets[item]
         if self.resize is not None:
             image = Image.resize(
                 (self.resize[1], self.resize[0]), resample=Image.BILINEAR
