@@ -18,5 +18,4 @@ class SEResNex50_32x4d(nn.Module):
         x = F.adaptive_avg_pool2d(x, 1)
         x = x.reshape(bs, -1)
         out = self.out(x)
-        return out    
-    
+        return out 

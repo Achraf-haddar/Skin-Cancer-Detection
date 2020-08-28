@@ -13,7 +13,7 @@ from dataset import ClassificationDataset
 
 def train(fold):
     training_data_path = "/home/achraf/Desktop/workspace/SkinCancerDetection/Dataset/256x256/train"
-    model_path = "/home/achraf/Desktop/workspace/SkinCancerDetection"
+    model_path = "/home/achraf/Desktop/workspace/SkinCancerDetection/models"
     df = pd.read_csv("/home/achraf/Desktop/workspace/SkinCancerDetection/Dataset/256x256/train_folds.csv")
     device = "cuda"
     epochs = 50
