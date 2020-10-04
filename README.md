@@ -7,4 +7,4 @@ In this project, I used pytorch to build a CNN classification model to identify 
 Melanoma is a deadly disease, but if caught early, most melanomas can be cured with minor surgery. Image analysis tools that automate the diagnosis of melanoma will improve dermatologists' diagnostic accuracy. Better detection of melanoma has the opportunity to positively impact millions of people.
 
 
-### Kaggle Competition Link: https://www.kaggle.com/c/siim-isic-melanoma-classification/data
+### Kaggle Competition Link: https://www.kaggle.com/c/siim-isic-melanoma-classification
